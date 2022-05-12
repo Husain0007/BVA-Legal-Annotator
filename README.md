@@ -8,9 +8,9 @@ As a part of this project the course participants were tasked with manually labe
 
 Some functions to tokenize and parse the case text were taken from the <b>LDSI_W21_Classifier_Workshop_clear.ipynb</b> notebook provided by the <a href= "https://www.in.tum.de/legaltech/home/"> Professorship for Legal Tech</a> </b>.
 
-In the <u>LDSI-Project-SHM</u> notebook I have featurized the sentences as TF-IDF vectors & sentence embeddings then applied them to 28 machine learning models.
+In the <b>LDSI-Project-SHM</b> notebook I have featurized the sentences as TF-IDF vectors & sentence embeddings then applied them to 28 machine learning models.
 
-The top performing TF-IDF based model and Word Embedding based model(F1-Score: 86% & 85% respectively) have been saved as "best_model.joblib" and "best2_model.joblib" and can be tested on a sample case text provided in "Check.txt" via "analyze.py" and "analyze_second_best.py".
+The top performing TF-IDF based and Sentence Embedding based models (F1-Score: 86% & 85% respectively) have been saved as "best_model.joblib" and "best2_model.joblib" and can be applied to a sample case text provided in "Check.txt" via "analyze.py" and "analyze_second_best.py".
 
 ```
 $ python analyze.py Check.txt
