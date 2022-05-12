@@ -1,6 +1,6 @@
 # Project: United States Board of Veterans' Appeals Sentence Annotator
 
-The data & directives for this project were outlined by the <b> <a href= "https://www.in.tum.de/legaltech/home/"> Professorship for Legal Tech</a> </b> for the course titled "Legal Data Science & Informatics (IN2395)" taught during Winter 2021-22 at the <b> Technical University of Munich </b>. 
+The data & directive for this project were outlined by the <b> <a href= "https://www.in.tum.de/legaltech/home/"> Professorship for Legal Tech</a> </b> for the course titled "Legal Data Science & Informatics (IN2395)" taught during Winter 2021-22 at the <b> Technical University of Munich </b>. 
 
 In the project we are tasked with developing a sentence level annotator for case text originating from the US Board of Veterans' Appeals. 
 
