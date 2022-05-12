@@ -17,7 +17,7 @@ $ python analyze.py Check.txt
 $ python analyze_second_best.py Check.txt
 ```
 
-To download the necessary dependencies please run the following comman
+To download the necessary dependencies please run the following command
 ```
 pip install -r requirements.txt
 ```
