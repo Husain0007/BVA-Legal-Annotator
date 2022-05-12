@@ -4,9 +4,9 @@ The data & directive for this project were outlined by the <b> <a href= "https:/
 
 In the project we are tasked with developing a sentence level annotator for case text originating from the US Board of Veterans' Appeals. 
 
-As a part of this project the course participants were tasked with manually labelling legal cases. As a pre-requisite they were provided with some legal background via lectures and workshops then subsequently instructed to annotate sentences from a total of 141 BVA cases using the <a href="https://gloss2.savelka.net/"> Gloss Legal Annotator Tool </a>. The task of annotating was divided amongst the 50+ participants, hence the resulting annotated documents are the shared Intellectual Property of all course participants. For this reason I have not included any reference to the data that was used, and have removed data structures that were developed in the notebook <u>LDSI-Project-SHM</u> from the project repo.
+As a part of this project the course participants were tasked with manually labelling legal cases. As a pre-requisite they were provided with some legal background via lectures and workshops then subsequently instructed to annotate sentences from a total of 141 BVA cases using the <a href="https://gloss2.savelka.net/"> Gloss Legal Annotator Tool </a>. The task of annotating was divided amongst the 50+ participants, hence the resulting annotated documents are the shared Intellectual Property of all course participants. For this reason I have not included any reference to the data in this repo, and I have also removed .json & .txt files used throughout the notebook <b>LDSI-Project-SHM</b> from the project directory.
 
-Some functions to tokenize and parse the case text were taken from the <u>LDSI_W21_Classifier_Workshop_clear.ipynb</u> notebook provided by the <a href= "https://www.in.tum.de/legaltech/home/"> Professorship for Legal Tech</a> </b>.
+Some functions to tokenize and parse the case text were taken from the <b>LDSI_W21_Classifier_Workshop_clear.ipynb</b> notebook provided by the <a href= "https://www.in.tum.de/legaltech/home/"> Professorship for Legal Tech</a> </b>.
 
 In the <u>LDSI-Project-SHM</u> notebook I have featurized the sentences as TF-IDF vectors & sentence embeddings then applied them to 28 machine learning models.
 
